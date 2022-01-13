@@ -1,7 +1,7 @@
 import React from 'react';
 import { fireEvent, render, waitFor } from '@testing-library/react-native';
 
-import RegisterLoginData from '../../screens/RegisterLoginData';
+import { RegisterLoginData } from '../../screens/RegisterLoginData';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const mockedNavigate = jest.fn();
